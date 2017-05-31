@@ -1,0 +1,153 @@
+html {
+	font-family: 'Lato', cursive !im;
+}
+
+.super_nav {
+	height: 200px;
+	width: 100%;
+}
+
+.logo {
+	padding-top: 40px;
+}
+/*
+.phone_no {
+	float: right;
+}*/
+
+.feat_row {
+	padding-bottom: 5px;
+	margin: 50px 0 30px 0
+}
+
+.navbar-nav > li{
+  padding-left: .5%;
+  padding-right: .5%;
+	font-size: 1.2em;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: #00a9e8;
+    color: white;
+}
+
+.main_section_1 {
+	background-image: url(../images/bg_vent.png);
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.blue_btn {
+	display: block;
+	background-color: #00a9e8;
+	color: white;
+	margin: 0 auto;
+	height: 55px;
+	width: 150px;
+	border-radius: 10px;
+	margin: 0 auto;
+
+}
+
+.feat_box {
+	background-color: #ffffff;
+	margin-bottom: 50px;
+}
+
+.text-left {
+	padding: 10px 10px 10px 0;
+}
+
+.sub_header {
+	color: #064c98;
+}
+
+.section_2_header, .car_2_header {
+	margin-bottom: 15px;
+	color: #064c98;
+}
+
+#carousel_tweaks {
+}
+
+#feat_box_l {
+	border: 10px solid transparent;
+	background-image: url('../images/fan.png');
+}
+
+#feat_box_c {
+	border: 10px solid transparent;
+	background-image: url('../images/fan.png');
+}
+
+#feat_box_r {
+	border: 10px solid transparent;
+	background-image: url('../images/fan.png');
+}
+
+.car_2_container {
+	margin-bottom: 50px;
+}
+
+.join_list {
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Slick Carousel*/
+.row-equal > div[class*='col-'] {
+	display: flex;
+	flex: 1 0 auto;
+}
+
+.row-equal .card {
+	width: 100%;
+}
+
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+	display: flex;
+}
+
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+	opacity: 0.5;
+	display: flex;
+}
+
+
+.card-img-top-250 {
+	max-height: 250px;
+	overflow:hidden;
+}
+
+/*Sticky Footer*/
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -400px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 400px;
+}
+.site-footer {
+  background: #eaebeb;
+}
+.site_links {
+list-style-type: none;
+}
